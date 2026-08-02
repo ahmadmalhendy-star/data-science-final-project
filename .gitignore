@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Ignore all CSV files in the data directory
+data/*.csv
+data/*
+!data/.gitkeep
